@@ -80,7 +80,7 @@ module.exports = {
     // Set to `true` or `false` to always turn it on or off
     bundleAnalyzerReport: process.env.npm_config_report,
     port: 9000,
-    sellUrl: 'http://lostman.frpgz1.idcfengye.com',
+    sellUrl: 'http://lostman.frpgz1.idcfengye.com/sell',
     openidUrl: 'http://lostman.frpgz1.idcfengye.com/sell/wechat/authorize',
     wechatPayUrl: 'http://lostman.frpgz1.idcfengye.com/sell/pay/create'
   }

@@ -40,7 +40,7 @@ apiRoutes.get('/ratings', function (req, res) {
 		errno: 0,
 		data: ratings
 	});
-}); 
+});
 
 app.use('/api', apiRoutes);
 
@@ -51,5 +51,5 @@ module.exports = app.listen(port, function (err) {
 		console.log(err);
 		return
 	}
-	console.log('Listening at http://localhost:' + port + '\n')
+	console.log('Listening at http://192.168.0.109:' + port + '\n')
 });

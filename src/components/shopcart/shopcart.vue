@@ -186,7 +186,9 @@
         if (this.totalPrice < this.minPrice) {
           return;
         }
-        window.alert(`支付${this.totalPrice}元`);
+        window.selectedGoods = JSON.stringify(this.selectFoods);
+        window.sellerPay = JSON.stringify(this.seller);
+        window.location.href = '#/payment';
       },
       addFood(target) {
         this.drop(target);
